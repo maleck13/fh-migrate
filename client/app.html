@@ -18,8 +18,6 @@
         </script>
         <script src="my.js">
         </script>
-        <script src="custom.js">
-        </script>
     </head>
     
     <body>
@@ -52,12 +50,15 @@
         <!-- list -->
         <div data-role="page" id="page3">
             <div data-theme="b" data-role="header">
+                <a data-role="button" data-transition="pop" href="#page1" class="ui-btn-right">
+                    Logout
+                </a>
                 <h3>
                     Suspects
                 </h3>
             </div>
             <div data-role="content">
-                <ul data-role="listview" data-divider-theme="b" data-inset="false">
+                <ul id="list" data-role="listview" data-divider-theme="b" data-inset="false">
                     <li data-theme="c">
                         <a href="#page4" data-transition="slide">
                             265602 LNW South
@@ -129,7 +130,7 @@
                     </li>
                     <li>
                         <a href="#" data-theme="" data-icon="info">
-                            Three
+                            Reality
                         </a>
                     </li>
                 </ul>
@@ -138,15 +139,52 @@
         <!-- show -->
         <div data-role="page" id="page4">
             <div data-theme="b" data-role="header">
+                <a data-role="button" data-transition="pop" href="#page1" class="ui-btn-right">
+                    Logout
+                </a>
                 <h3>
                     Detail
                 </h3>
-                <a data-role="button" data-transition="slide" data-theme="b" href="#page3"
-                class="ui-btn-left">
+                <a data-role="button" data-direction="reverse" data-rel="back" data-transition="slide"
+                data-theme="b" href="#page3" class="ui-btn-left">
                     back
                 </a>
             </div>
             <div data-role="content">
+                <div>
+                    <p>
+                        <b>
+                            Suspect ID: 227690
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                        </b>
+                        <b>
+                            Route: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LNW South
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            Ran Date: &nbsp; &nbsp; &nbsp;3 Aug 2009
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            Due Date: &nbsp; &nbsp; &nbsp;11 Aug 2009
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            Category: &nbsp; &nbsp; &nbsp; New Suspect
+                        </b>
+                    </p>
+                    <p>
+                        <b>
+                            Priority: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; P2
+                        </b>
+                    </p>
+                </div>
             </div>
             <div data-role="tabbar" data-iconpos="top" data-theme="b">
                 <ul>
@@ -162,7 +200,7 @@
                     </li>
                     <li>
                         <a href="#" data-theme="" data-icon="info">
-                            Three
+                            Reality
                         </a>
                     </li>
                 </ul>
@@ -171,13 +209,16 @@
         <!-- map -->
         <div data-role="page" id="page5">
             <div data-theme="b" data-role="header">
+                <a data-role="button" data-transition="pop" href="#page1" class="ui-btn-right">
+                    Logout
+                </a>
                 <h3>
                     Map
                 </h3>
             </div>
-            <div data-role="content">
-                <img src="https://maps.googleapis.com/maps/api/staticmap?center=kensal green london uk&amp;zoom=14&amp;size=320x400&amp;markers=&amp;sensor=false"
-                width="320" height="400">
+            <div data-role="content" style="padding: 0px">
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=kensal green london uk&amp;zoom=14&amp;size=320x465&amp;markers=&amp;sensor=false"
+                width="320" height="465">
             </div>
             <div data-role="tabbar" data-iconpos="top" data-theme="b">
                 <ul>
@@ -193,7 +234,7 @@
                     </li>
                     <li>
                         <a href="#" data-theme="" data-icon="info">
-                            Three
+                            Reality
                         </a>
                     </li>
                 </ul>
