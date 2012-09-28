@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049e28f8-cc88-420e-82af-7eedb8ef2801" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/ajax-loader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/icons-18-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/icons-18-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/icons-36-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/icons-36-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/ios-pack-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/ios-pack-color@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/my.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/my.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/fh-app.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/lib/jquery-1.6.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/lib/jquery.mobile-1.1.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/icon-search-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/images/icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/jquery.mobile.structure-1.1.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/default/src/css/jquery.mobile.theme-1.1.0.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.html" afterPath="$PROJECT_DIR$/client/app.html" />
     </list>
     <ignored path="fh-app.iws" />
     <ignored path=".idea/workspace.xml" />
