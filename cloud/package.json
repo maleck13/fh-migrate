@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "dependencies" : {
     "fh-nodeapp" : "*",
-    "geoip":"0.4.5"
+    "geoip":"0.0.3"
   }
 }
