@@ -23,9 +23,8 @@ exports.addData = function (params, callback){
 
 exports.getData = function (params, callback){
 	$fh.db({
-		"act": "read",
-		"type": "contact",
-		"guid": params["guid"]
+		"act": "list",
+		"type": "contact"
 	}, callback);
 };
 
